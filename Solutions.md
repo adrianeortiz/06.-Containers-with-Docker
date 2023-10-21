@@ -57,7 +57,7 @@ export DB_SERVER=localhost
 export DB_NAME=team-member-projects
 
 # start java application
-java -jar build/libs/bootcamp-docker-java-mysql-project-1.0-SNAPSHOT.jar
+java -jar build/libs/docker-exercises-project-1.0-SNAPSHOT.jar
 
 ```
 
