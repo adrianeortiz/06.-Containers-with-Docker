@@ -159,7 +159,7 @@ CMD ["java", "-jar", "docker-exercises-project-1.0-SNAPSHOT.jar"]
 
 **steps:**
 ```sh
-# create jar file - bootcamp-java-mysql-project-1.0-SNAPSHOT.jar
+# create jar file - docker-exercises-project-1.0-SNAPSHOT.jar
 gradle build
 
 # create docker image - {repo-name}/{image-name}:{image-tag}
@@ -224,7 +224,7 @@ volumes:
 
 ```
 
-**docker-compose-with-app.yaml**
+**steps:**
 ```sh
 # set all needed environment variables
 export DB_USER=admin
@@ -238,7 +238,7 @@ export PMA_HOST=mysql
 export PMA_PORT=3306
 
 # start all 3 containers 
-docker-compose -f docker-compose.yaml up    
+docker-compose -f docker-compose-with-app.yaml up    
 ```
 
 </details>
